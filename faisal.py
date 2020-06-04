@@ -522,7 +522,7 @@ def paki_super():
 		except:
 			pass
 		
-	p = ThreadPool(70)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
